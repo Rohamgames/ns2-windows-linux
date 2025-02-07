@@ -66,7 +66,7 @@ Log into your distro and do the following:
 sudo apt update && sudo apt upgrade -y
 ```
 
-2.Install NS2 and TCl
+2.Install NS2 and TCL
 ```
 sudo apt install ns2 tcl
 ```
