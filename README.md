@@ -1,7 +1,7 @@
 # ns2-windows-linux
 In this repo I am going to explain how to install and run NS2 on Linux and Windows
 
-For Windows I am using Windows 11 and WSL2 but you cn also run a VM and use the install NS2 from Linux guide below
+For Windows I am using Windows 11 and WSL2 but you can also run a VM and use the install NS2 from Linux guide below
 
 ## Windows only
 
