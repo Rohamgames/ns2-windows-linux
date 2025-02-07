@@ -73,5 +73,33 @@ sudo apt install ns2 tcl
 
 3.You are going to need NetowrkAnimator(nam) for visualaizations unfortunately the apt version does not work so use the version provided on this repo:
 ```
-wget 
+wget https://github.com/Rohamgames/ns2-windows-linux/raw/refs/heads/main/nam_1.14_amd64.deb
+sudo dpkg -i nam_1.14_amd64.deb
 ```
+
+4.Verify ns2 installation:
+run `ns` and then you should see `%` you may get ns2 version if needed:
+```
+ns-version 
+```
+
+<img width="198" alt="{E35C791E-CB1F-458E-8C12-21750BD12ECB}" src="https://github.com/user-attachments/assets/11f84b65-d3b2-478a-a002-e72d5849f9e3" />
+
+5.Test sample code:
+First download:
+```
+wget https://github.com/Rohamgames/ns2-windows-linux/raw/refs/heads/main/sample.tcl
+```
+
+Then execute:
+```
+ns sample.tcl
+```
+You should see something like this:
+
+<img width="293" alt="{6FCE7974-7BDC-4503-A318-D79E0A6A0A9C}" src="https://github.com/user-attachments/assets/a9bd2afd-8531-4fdd-995a-306c7a774f17" />
+
+Thats all
+
+Enjoy
+
